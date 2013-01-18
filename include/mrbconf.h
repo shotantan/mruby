@@ -9,6 +9,20 @@
 
 #include <stdint.h>
 
+#define DISABLE_TIME
+#define DISABLE_GEMS
+#define MRB_USE_FLOAT
+#define MRB_HEAP_PAGE_SIZE 64 //512
+#define KHASH_DEFAULT_SIZE 2 //8
+#define MRB_USE_IV_SEGLIST
+#define MRB_IVHASH_INIT_SIZE 2
+#define MRB_FUNCALL_ARGC_MAX 6
+#define POOL_PAGE_SIZE 512
+
+/* configuration options: */
+/* add -DMRB_USE_FLOAT to use float instead of double for floating point numbers */
+#define MRB_USE_FLOAT
+
 /* configuration options: */
 /* add -DMRB_USE_FLOAT to use float instead of double for floating point numbers */
 //#define MRB_USE_FLOAT
