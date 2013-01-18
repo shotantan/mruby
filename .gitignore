@@ -6,6 +6,9 @@
 *.swp
 *.tmp
 *~
+*.d
+*.o
+*.a
 .DS_Store
 .ccmalloc
 .svn
